@@ -53,10 +53,8 @@ def load_data(city, month, day):
     print(" Filters applied : "
           "[ {}, {}, {}] ".format(city, month, day))
     print()
-
-  
+ 
     df = pd.read_csv(CITY_DATA[city])
-
     
     df['Start Time'] = pd.to_datetime(df['Start Time'])
 
@@ -180,9 +178,6 @@ def trip_duration_stats(df):
         print("\nThis took %s seconds." % (time.time() - start_time))
         print('-'*150, '\n')
 
-
-
-
 def main():
     while True:
         city, month, day = get_filters()
@@ -212,7 +207,5 @@ def main():
             break 
     print('Thank you for exploring this bikeshare data, see you next time!')
             
-
-
 if __name__ == "__main__":
     main()
