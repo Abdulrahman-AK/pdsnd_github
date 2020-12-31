@@ -214,7 +214,8 @@ def main():
             break 
     print('Thank you for exploring this bikeshare data, see you next time!')
             
-
+# stay curious homeslice
 
 if __name__ == "__main__":
     main()
+
