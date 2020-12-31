@@ -64,9 +64,11 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-i
 
 Github:
 https://www.youtube.com/watch?v=sgzkY5vFKQQ
+https://www.youtube.com/watch?v=yXT1ElMEkW8 (coding for poets no i am not a poet)
 
 People:
 Sir Winston
 M.Al-Misnad
 Gracious Reviewers
+Qahaw (arabic coffee)
 
