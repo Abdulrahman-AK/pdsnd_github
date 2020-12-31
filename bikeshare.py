@@ -53,10 +53,8 @@ def load_data(city, month, day):
     print(" Filters applied : "
           "[ {}, {}, {}] ".format(city, month, day))
     print()
-
-  
+ 
     df = pd.read_csv(CITY_DATA[city])
-
     
     df['Start Time'] = pd.to_datetime(df['Start Time'])
 
@@ -180,9 +178,6 @@ def trip_duration_stats(df):
         print("\nThis took %s seconds." % (time.time() - start_time))
         print('-'*150, '\n')
 
-
-
-
 def main():
     while True:
         city, month, day = get_filters()
@@ -192,7 +187,6 @@ def main():
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
-        
     
         row = 5
         raw_data = input('Would you like to see raw data? '
@@ -204,7 +198,6 @@ def main():
             raw_data = input('Would you like to see more '
                              'raw data? Enter (yes / no) : ').lower()
             row += 5
-       
 
         restart = input('\nWould you like to restart? '
                         'Enter (yes / no) : ').lower()
@@ -214,6 +207,7 @@ def main():
             break 
     print('Thank you for exploring this bikeshare data, see you next time!')
             
+
 # stay curious homeslice
 
 if __name__ == "__main__":
