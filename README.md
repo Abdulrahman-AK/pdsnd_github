@@ -72,3 +72,14 @@ M.Al-Misnad
 Gracious Reviewers
 Qahaw (arabic coffee)
 
+
+
+Haiku:
+
+“A World of Dew” by Kobayashi Issa
+
+A world of dew,
+
+And within every dewdrop
+
+A world of struggle.
