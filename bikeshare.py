@@ -71,7 +71,6 @@ def load_data(city, month, day):
 
     if day != 'all':
         df = df[df['day_of_week'] == day.title()]
-
     return df
 
 def user_stats(df):
