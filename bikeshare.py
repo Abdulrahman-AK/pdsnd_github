@@ -192,7 +192,6 @@ def main():
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
-        
     
         row = 5
         raw_data = input('Would you like to see raw data? '
@@ -204,7 +203,6 @@ def main():
             raw_data = input('Would you like to see more '
                              'raw data? Enter (yes / no) : ').lower()
             row += 5
-       
 
         restart = input('\nWould you like to restart? '
                         'Enter (yes / no) : ').lower()
