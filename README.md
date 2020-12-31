@@ -62,9 +62,11 @@ https://stackoverflow.com/questions/961632/converting-integer-to-string-in-pytho
 MIT OCW
 https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/
 
-
+Github:
+https://www.youtube.com/watch?v=sgzkY5vFKQQ
 
 People:
-
+Sir Winston
 M.Al-Misnad
+Gracious Reviewers
 
